@@ -53,4 +53,14 @@ config BR2_LINUX_KERNEL_EXT_THINGINO_KOPT_DTS_A1_SMART_NVR
 
 		Compatible with Ingenic A1N (Tucana) based Smart NVR hardware.
 
+config BR2_LINUX_KERNEL_EXT_THINGINO_KOPT_DTS_CINNADO_D1
+	bool "Cinnado D1 3K"
+	help
+		Select this option to use the custom device tree for Cinnado D1 3K.
+		This will install the cinnado_d1_t41nq.dts file to the kernel's
+		arch/mips/boot/dts/ingenic directory as marmot.dts.
+
+		Compatible with Ingenic T41NQ based Cinnado D1 3K hardware
+		featuring SC5336 image sensor and ATBM6132UB Wi-Fi.
+
 endchoice
