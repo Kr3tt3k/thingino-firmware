@@ -80,7 +80,7 @@ config BR2_LINUX_KERNEL_EXT_THINGINO_KOPT_DTS_A1_SMART_NVR
 
 		Compatible with Ingenic A1N (Tucana) based Smart NVR hardware.
 
-config BR2_LINUX_KERNEL_EXT_THINGINO_KOPT_DTS_CINNADO13K
+config BR2_LINUX_KERNEL_EXT_THINGINO_KOPT_DTS_CINNADOD13K
 	bool "Cinnado D1 3K"
 	help
 		Select this option to use the custom device tree for Cinnado D1 3k
