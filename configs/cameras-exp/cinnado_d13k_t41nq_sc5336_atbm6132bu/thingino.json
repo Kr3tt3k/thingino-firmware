@@ -11,7 +11,7 @@
       "pin": 82,
       "active_low": true
     },
-    "mmc_cd": 58,
+    "mmc_cd": 59,
     "wlan": {
       "pin": 57,
       "active_low": true
