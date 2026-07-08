@@ -3,7 +3,7 @@
 / {
 	#address-cells = <0x01>;
 	#size-cells = <0x01>;
-	compatible = "ingenic,marmot", "ingenic,t41";
+	compatible = "ingenic,d13k", "ingenic,t41";
 
 	aliases {
 		i2c0 = "/apb/i2c@0x10050000";
@@ -717,6 +717,8 @@
 			status = "disabled";
 		};
 
+		/* SC5336 sensor sits on I2C0.
+		 * TODO: Adresse/Bus bitte bestaetigen - Platzhalter 0x30 */
 		i2c@0x10050000 {
 			compatible = "ingenic,t41-i2c";
 			reg = <0x10050000 0x1000>;
@@ -728,11 +730,6 @@
 			pinctrl-0 = <0x10>;
 			pinctrl-names = "default";
 
-			sc5336@30 {
-				compatible = "sc,sc5336";
-				reg = <0x30>;
-				reset-gpios = <0x08 0x12 0x00 0x00>;
-			};
 		};
 
 		i2c@0x10051000 {
@@ -1065,7 +1062,6 @@
 		linux,phandle = <0x15>;
 		phandle = <0x15>;
 	};
-
 
 	motor_hor {
 		status = "okay";
