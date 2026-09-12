@@ -17,7 +17,8 @@
       "pin": 57,
       "active_low": true
     }
-    "motors": {
+  }
+  "motors": {
     "gpio_invert": false,
     "gpio_pan": "66 77 76 67",
     "gpio_switch": -1,
@@ -30,5 +31,4 @@
     "steps_pan": 3700,
     "steps_tilt": 1000
     }
-  }
 }
