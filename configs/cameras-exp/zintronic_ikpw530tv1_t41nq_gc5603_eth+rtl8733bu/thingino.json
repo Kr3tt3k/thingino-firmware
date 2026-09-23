@@ -1,5 +1,5 @@
 {
-  "gpio": ,{
+  "gpio": {
     "ircut": "49 50",
     "wlan": { 
       "pin": 61, 
