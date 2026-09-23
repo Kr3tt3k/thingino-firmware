@@ -12,7 +12,8 @@
       "pin": 82,
       "active_low": true
     },
-    "ircut": "50 49",
+    "ircut": "49 50",
+    "white": "81",
     "mmc_cd": {
       "pin": 58,
       "active_low": true
@@ -23,10 +24,6 @@
     },
     "speaker": {
       "pin": 63,
-      "active_low": true
-    },
-    "white": {
-      "pin": 81,
       "active_low": true
     }
   },
