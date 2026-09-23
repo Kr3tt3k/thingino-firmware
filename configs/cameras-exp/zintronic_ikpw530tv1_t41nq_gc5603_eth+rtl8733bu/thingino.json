@@ -13,7 +13,10 @@
       "active_low": true
     },
     "ircut": "49 50",
-    "white": "81",
+    "white": {
+      "pin": 81,
+      "active_low": true
+    },
     "mmc_cd": {
       "pin": 58,
       "active_low": true
