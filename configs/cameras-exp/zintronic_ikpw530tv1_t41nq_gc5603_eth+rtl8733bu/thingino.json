@@ -9,12 +9,12 @@
       "active_low": true
     },
     "ir850": {
-      "pin": 82,
+      "pin": 81,
       "active_low": true
     },
     "ircut": "49 50",
     "white": {
-      "pin": 81,
+      "pin": 82,
       "active_low": true
     },
     "mmc_cd": {
