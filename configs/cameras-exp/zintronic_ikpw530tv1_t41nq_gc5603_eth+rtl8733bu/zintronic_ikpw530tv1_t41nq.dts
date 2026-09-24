@@ -792,7 +792,7 @@
             pinctrl-1 = <0x19 0x18>;
             ingenic,mac-mode = <0x4>;
             ingenic,mode-reg = <0xB00000E8>;
-            ingenic,phy-clk-freq = <0x17D7840>;
+            ingenic,phy-clk-freq = <0x2faf080>;
         };
         rsa@0x134c0000 {
             compatible = "ingenic,rsa";
