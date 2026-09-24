@@ -14,23 +14,19 @@
       "pin": 82,
       "active_low": false
     },
-     "button_reset": {
-      "pin": 72,
-      "active_low": true
-    },
     "mmc_cd": {
       "pin": 58,
       "active_low": false
-  },
-    "mmc_power": { 
+    },
+    "mmc_power": {
       "pin": 118,
-      "active_low": true 
+      "active_low": false
     }
 },
- "motors": {
-    "gpio_pan": "79 80 83 84",
-    "gpio_tilt": "75 76 77 78",
-    "steps_pan": 1020,
-    "steps_tilt": 240
+   "motors": {
+      "gpio_pan": "79 80 83 84",
+      "gpio_tilt": "75 76 77 78",
+      "steps_pan": 1020,
+      "steps_tilt": 240
   }
 }
