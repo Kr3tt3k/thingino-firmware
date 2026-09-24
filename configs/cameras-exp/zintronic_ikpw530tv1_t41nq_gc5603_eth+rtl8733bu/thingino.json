@@ -2,6 +2,10 @@
   "gpio": {
     "ircut": "49 50",
     "speaker": "63",
+    "button_reset": {
+      "pin": 72,
+      "active_low": true
+    },
     "wlan": { 
       "pin": 61, 
       "active_low": true
@@ -12,7 +16,7 @@
     },
     "white": {
       "pin": 82,
-      "active_low": false
+      "active_low": true
     },
     "mmc_cd": {
       "pin": 58,
