@@ -20,7 +20,7 @@
     },
     "mmc_power": {
       "pin": 118,
-      "active_low": false
+      "active_low": true
     }
   },
    "motors": {
