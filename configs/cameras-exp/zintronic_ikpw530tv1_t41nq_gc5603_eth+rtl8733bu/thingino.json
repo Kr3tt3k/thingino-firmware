@@ -22,5 +22,27 @@
       "pin": 118,
       "active_low": false
     }
-}
+  },
+   "motors": {
+      "gpio_pan": "79 80 83 84",
+      "gpio_tilt": "75 76 77 78",
+      "gpio_invert": false,
+      "gpio_switch": -1,
+      "homing": true,
+    "invert_x": false,
+    "invert_y": false,
+    "is_spi": false,
+    "presets": [
+      {
+        "id": 0,
+        "x": 2400,
+        "y": 1800,
+        "description": "Home"
+      }
+    ],
+    "speed_pan": 900,
+    "speed_tilt": 900,
+    "steps_pan": 4800,
+    "steps_tilt": 3600
+  }
 }
