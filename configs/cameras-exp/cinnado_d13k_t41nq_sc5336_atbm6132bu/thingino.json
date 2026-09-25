@@ -2,7 +2,7 @@
   "gpio": {
     "button_reset": 62,
     "ir940": 79,
-    "ircut": "49 50",
+    "ircut": "50 49",
     "led_b": {
       "pin": 82,
       "active_low": true
@@ -11,7 +11,10 @@
       "pin": 81,
       "active_low": true
     },
-    "mmc_cd": 58,
+    "mmc_cd": {
+      "pin": 58,
+      "active_low": true
+    },
     "speaker": 63,
     "wlan": {
       "pin": 57,
@@ -22,7 +25,7 @@
     "gpio_invert": false,
     "gpio_pan": "66 77 76 67",
     "gpio_switch": -1,
-    "gpio_tilt": "68 69 84 83",
+    "gpio_tilt": "69 83 84 68",
     "homing": true,
     "is_spi": false,
     "pos_0": "1850,500",
