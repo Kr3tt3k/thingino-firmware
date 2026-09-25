@@ -17,7 +17,7 @@
       "pin": 57,
       "active_low": true
     }
-  }
+  },
   "motors": {
     "gpio_invert": false,
     "gpio_pan": "66 77 76 67",
