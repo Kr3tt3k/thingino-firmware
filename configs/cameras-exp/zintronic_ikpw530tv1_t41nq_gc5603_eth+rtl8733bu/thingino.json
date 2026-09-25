@@ -17,10 +17,6 @@
     "mmc_cd": {
       "pin": 58,
       "active_low": true
-    },
-    "mmc_power": {
-      "pin": 118,
-      "active_low": true
     }
   },
    "motors": {
