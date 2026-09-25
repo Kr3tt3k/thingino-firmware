@@ -7,11 +7,11 @@
       "active_low": true
     },
     "ir850": {
-      "pin": 81,
+      "pin": 82,
       "active_low": false
     },
     "white": {
-      "pin": 82,
+      "pin": 81,
       "active_low": false
     },
     "mmc_cd": {
