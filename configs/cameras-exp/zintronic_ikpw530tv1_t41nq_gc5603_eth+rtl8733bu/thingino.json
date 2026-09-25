@@ -1,5 +1,9 @@
 {
   "gpio": {
+    "button_reset": {
+      "pin": 59,
+      "active_low": true
+    },
     "ircut": "49 50",
     "speaker": "63",
     "wlan": { 
