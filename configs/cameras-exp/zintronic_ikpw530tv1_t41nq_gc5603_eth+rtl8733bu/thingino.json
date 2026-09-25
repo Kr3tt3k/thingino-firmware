@@ -46,7 +46,7 @@
     ],
     "speed_pan": 900,
     "speed_tilt": 900,
-    "steps_pan": 3200,
+    "steps_pan": 3000,
     "steps_tilt": 1100
   }
 }
