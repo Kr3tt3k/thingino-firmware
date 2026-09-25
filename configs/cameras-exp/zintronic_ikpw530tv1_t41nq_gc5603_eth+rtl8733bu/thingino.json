@@ -31,14 +31,14 @@
     "presets": [
       {
         "id": 0,
-        "x": 2400,
-        "y": 1800,
+        "x": 1600,
+        "y": 550,
         "description": "Home"
       }
     ],
     "speed_pan": 900,
     "speed_tilt": 900,
-    "steps_pan": 4800,
-    "steps_tilt": 3600
+    "steps_pan": 3200,
+    "steps_tilt": 1100
   }
 }
