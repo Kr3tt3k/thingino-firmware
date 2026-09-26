@@ -11,6 +11,15 @@
 		compatible = "mmc-pwrseq-simple";
 		reset-gpios = <&gpd 22 GPIO_ACTIVE_LOW INGENIC_GPIO_NOBIAS>;
 	};
+
+	reset {
+        label = "reset";
+        linux,code = <KEY_ENTER>;
+        /* Cinnado D1 3K reset button: PB30 (GPIO 62) */
+        gpios = <&gpb 30 GPIO_ACTIVE_LOW INGENIC_GPIO_NOBIAS>;
+        gpio-key,wakeup;
+        debounce-interval = <100>;
+	};
 };
 
 &gpb {
@@ -100,15 +109,6 @@
 
 &pdma {
 	status = "okay";
-};
-
-reset {
-        label = "reset";
-        linux,code = <KEY_ENTER>;
-        /* Cinnado D1 3K reset button: PB30 (GPIO 62) */
-        gpios = <&gpb 30 GPIO_ACTIVE_LOW INGENIC_GPIO_NOBIAS>;
-        gpio-key,wakeup;
-        debounce-interval = <100>;
 };
 
 &msc0 {
