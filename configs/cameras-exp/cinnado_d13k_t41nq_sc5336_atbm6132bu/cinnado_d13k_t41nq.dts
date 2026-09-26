@@ -3,6 +3,10 @@
 // last_comp_version: 16
 // boot_cpuid_phys: 0x0
 
+#include <dt-bindings/input/input.h>
+#include "t41.dtsi"
+#include <dt-bindings/interrupt-controller/irq.h>
+
 / {
     #address-cells = <0x1>;
     #size-cells = <0x1>;
