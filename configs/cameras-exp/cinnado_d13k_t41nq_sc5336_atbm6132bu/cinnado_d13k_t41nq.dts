@@ -42,6 +42,14 @@
             clock-frequency = <0x2FAF0800>;
         };
     };
+    reset {
+        label = "reset";
+        linux,code = <KEY_ENTER>;
+        /* Cinnado D1 3K reset button: PB30 (GPIO 62) */
+        gpios = <&gpb 30 GPIO_ACTIVE_LOW INGENIC_GPIO_NOBIAS>;
+        gpio-key,wakeup;
+        debounce-interval = <100>;
+    };
     cpufreq-dt {
         compatible = "ingenic,t41-cpufreq";
         status = "okay";
