@@ -39,7 +39,7 @@ ifeq ($(BR2_PACKAGE_WIFI_SSV6X5X_SV6155P),y)
 	SSV6X5X_MODULE_OPTS = stacfgpath=/usr/share/wifi/ssv6155-usb-40M.cfg
 endif
 ifeq ($(BR2_PACKAGE_WIFI_SSV6X5X_SV6256P),y)
-	SSV6X5X_MODULE_OPTS = stacfgpath=/usr/share/wifi/ssv6x5x-wifi.cfg
+	SSV6X5X_MODULE_OPTS =
 endif
 # weird ops from Ginzzu OP200
 ifeq ($(BR2_PACKAGE_WIFI_SSV6X5X_SV6006C),y)
