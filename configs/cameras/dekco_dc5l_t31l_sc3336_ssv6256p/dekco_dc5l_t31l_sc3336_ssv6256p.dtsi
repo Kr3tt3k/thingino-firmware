@@ -26,3 +26,16 @@
 &msc0 {
 	ingenic,cd-gpios = <&gpb 17 GPIO_ACTIVE_LOW INGENIC_GPIO_PULLUP>;
 };
+
+/ {
+	gpio-keys {
+		compatible = "gpio-keys";
+		label = "gpio-keys";
+
+		reset {
+			label = "reset";
+			linux,code = <KEY_ENTER>;
+			gpios = <&gpb 18 GPIO_ACTIVE_LOW INGENIC_GPIO_PULLUP>;
+		};
+	};
+};
