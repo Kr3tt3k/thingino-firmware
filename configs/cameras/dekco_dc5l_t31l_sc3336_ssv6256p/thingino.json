@@ -10,7 +10,7 @@
   },
   "motors": {
     "gpio_invert": false,
-    "gpio_pan": "51 63 62 61",
+    "gpio_pan": "63 62 61 51",
     "gpio_switch": -1,
     "gpio_tilt": "54 52 53 41",
     "homing": true,
@@ -20,14 +20,14 @@
     "presets": [
       {
         "id": 0,
-        "x": 3350,
-        "y": 200,
+        "x": 2950,
+        "y": 450,
         "description": "Home"
       }
     ],
     "speed_pan": 900,
     "speed_tilt": 900,
-    "steps_pan": 6500,
-    "steps_tilt": 1100
+    "steps_pan": 5900,
+    "steps_tilt": 900
   }
 }
